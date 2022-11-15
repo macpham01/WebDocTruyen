@@ -1,0 +1,71 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #E4E4E4;
+    --hover-color: #AE4AD9;
+    --red-color: #E74C3C;
+    --blue-color: #2980B9;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+.grip {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grip__full-width{
+    width: 100%;
+}
+
+.grip__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 16px;
+}
+
+.grip__column-2-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 20%;
+}
+
+.grip__column-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 16.6667%;
+}
+
+.grip__column-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 66.6667%;
+}
+
+.grip__column-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 33.3333%;
+}
+
+.grip__column-3 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 25%;
+}
