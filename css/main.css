@@ -440,7 +440,7 @@ body{
 }
 
 .container-web__content {
-    margin: 12px 75px;
+    margin: 12px 75px 0 75px;
     background-color: #F9F9F9;
     padding: 0 15px;
 }
@@ -820,7 +820,7 @@ body{
 }
 
 .grip__column-10-number {
-    margin: 65px 0 50px 0;
+    margin: 0 50px ;
 }
 
 .grip__column-10-number-ul {
@@ -850,4 +850,63 @@ body{
     background-color: #4998cd;;
     color: var(--white-color);
     cursor: default;
+}
+
+.footer-web{
+    background-color: #222;
+}
+
+.footer__logo{
+    padding-bottom: 15px;
+}
+
+.footer__infor{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__infor a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ddd;
+}
+
+.footer__infor a:hover{
+    color: #fff;
+}
+
+.footer-copyright{
+    color: #ddd;
+    padding:15px 0;
+}
+
+.footer__keyword h3{
+    
+    margin: 8px 0 10px 5px;
+    font-size: 18px;
+}
+
+.footer__keyword-suggest ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__keyword-suggest ul li a{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+}
+
+.footer__keyword-suggest ul li a:hover{
+    border: solid 1px #fff;
 }
